@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"nl.thedutchruben.pvpitems.framework.items","l":"PvpItem"},{"p":"nl.thedutchruben.pvpitems","l":"PvpItems"},{"p":"nl.thedutchruben.pvpitems.framework.items","l":"PvpItemType"}]
