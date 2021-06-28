@@ -1,7 +1,7 @@
 name: PvpItems
 version: ${project.version}
 main: nl.thedutchruben.pvpitems.PvpItems
-api-version: 1.17
+api-version: 1.16
 prefix: PVPItems
 authors: [ TheDutchRuben ]
 description: A new layer of pvp with extra pvp items

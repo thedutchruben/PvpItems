@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"nl.thedutchruben.pvpitems"},{"l":"nl.thedutchruben.pvpitems.framework.items"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"nl.thedutchruben.pvpitems"},{"l":"nl.thedutchruben.pvpitems.framework.items"},{"l":"nl.thedutchruben.pvpitems.framework.items.throw_items"},{"l":"nl.thedutchruben.pvpitems.modules.items"},{"l":"nl.thedutchruben.pvpitems.utils"}]

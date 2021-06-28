@@ -1,0 +1,15 @@
+#
+# Items config
+# Here you can change all settings of the items
+#
+
+#Dont change the version
+version: 1
+
+items:
+  tntbomb:
+    enabled: true
+    power: 3
+    explodetime: 3
+    breakblocks: true
+    fire: true
