@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>nl.thedutchruben</groupId>
-    <artifactId>medicitems</artifactId>
+    <artifactId>PvpItems</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
@@ -25,8 +25,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>9</source>
+                    <target>9</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -74,6 +74,10 @@
         <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>jeff-media-gbr</id>
+            <url>https://repo.jeff-media.de/maven2/</url>
         </repository>
     </repositories>
 

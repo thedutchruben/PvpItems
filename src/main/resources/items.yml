@@ -13,3 +13,39 @@ items:
     explodetime: 3
     breakblocks: true
     fire: true
+  throw_knife_wooden:
+    name: "&bWooden Knife"
+    enabled: true
+    thrower_only_pickup: true
+    damage: 1
+    decrease_durability: true
+  throw_knife_stone:
+    name: "&aStone Knife"
+    enabled: true
+    thrower_only_pickup: true
+    damage: 2
+    decrease_durability: true
+  throw_knife_iron:
+    name: "&fIron Knife"
+    enabled: true
+    thrower_only_pickup: true
+    damage: 3
+    decrease_durability: true
+  throw_knife_golden:
+    name: "&6Golden Knife"
+    enabled: true
+    thrower_only_pickup: true
+    damage: 4
+    decrease_durability: true
+  throw_knife_diamond:
+    name: "&2Netherite Knife"
+    enabled: true
+    thrower_only_pickup: true
+    damage: 5
+    decrease_durability: true
+  throw_knife_netherite:
+    name: "&cNetherite Knife"
+    enabled: true
+    thrower_only_pickup: true
+    damage: 6
+    decrease_durability: true

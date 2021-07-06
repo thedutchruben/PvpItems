@@ -6,3 +6,6 @@ prefix: PVPItems
 authors: [ TheDutchRuben ]
 description: A new layer of pvp with extra pvp items
 website: www.thedutchruben.nl/en/projects/pvpitems
+commands:
+  pvpitems:
+    permission: pvpitems.command.pvpitems

@@ -2,6 +2,7 @@ package nl.thedutchruben.pvpitems.framework.items;
 
 import nl.thedutchruben.pvpitems.PvpItems;
 import nl.thedutchruben.pvpitems.utils.FileManager;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
@@ -27,6 +28,11 @@ public abstract class PvpItem {
      * This is accessible with the {@link #getPvpItemType()} function
      */
     private final PvpItemType pvpItemType;
+
+    /**
+     *
+     */
+    private PvpItemAction pvpItemAction;
     /**
      * The item herzelf is an Bukkit {@link ItemStack} <br>
      * This is accessible with the {@link #getItemStack()} function <br>
@@ -77,6 +83,14 @@ public abstract class PvpItem {
         return pvpItemType;
     }
 
+    public PvpItemAction getPvpItemAction() {
+        return pvpItemAction;
+    }
+
+    public void setPvpItemAction(PvpItemAction pvpItemAction) {
+        this.pvpItemAction = pvpItemAction;
+    }
+
     /**
      * Executes the {@link PvpItem}
      * @param player The {@link Player} that execute the {@link PvpItem}
@@ -90,7 +104,7 @@ public abstract class PvpItem {
     /**
      * Executes the {@link PvpItem}
      * @param player The {@link Player} that execute the {@link PvpItem}
-     * @param target The target is a {@link Player} that the player hits
+     * @param target The target is a {@link Entity} that the player hits
      */
-    public abstract void executeOnTarget(Player player,Player target);
+    public abstract void executeOnTarget(Player player, Entity target);
 }
